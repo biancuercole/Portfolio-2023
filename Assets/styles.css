@@ -3,6 +3,8 @@
 .navbar {
     background-color: #224B1D;
     overflow: hidden;
+    box-shadow: 0px 5px 5px ;
+    z-index: 1;
 }
 
 .navbar ul  {
@@ -35,19 +37,21 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     color: #224B1D;
     text-align: center;
+    background-color: #7eba76;
 }
 
 .fotoperf {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
 }
 
 .fotoperf img {
     max-width: 100%;
-    width: 300px;
-    border-radius: 50px;
+    width: 200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: 0px 0px 10px  #224B1D;
 
 }
 
@@ -58,3 +62,19 @@ hr {
     box-shadow: 5px 5px 5px #00000044;
 }
 
+.inicio {
+    background-color: #7eba76;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}

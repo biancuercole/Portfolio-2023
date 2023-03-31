@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
-@media {
-    scroll-behavior: smooth;
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
@@ -10,6 +12,12 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    height: 50px;
+    transition: height 0.3s ease-in-out;
+}
+
+.navbar-expanded {
+    height: 80px;
 }
 
 .marca {
@@ -19,17 +27,19 @@
     font-size: medium;
     padding: 10px;
     justify-content: center;
-    margin: 0;
-
+    align-items: center;
+    display: flex;
 }
 
 .menu {
     list-style: none;
     padding: 10px;
     color: aliceblue;
-    margin: 0;
-    text-decoration: none; 
+    text-decoration: none;
+}
 
+.menu:hover {
+    color: rgb(181, 177, 177);
 }
 
 .navbar ul {
@@ -41,8 +51,7 @@
     font-size: medium;
     font-weight: bolder;
     justify-content: center;
-    disp
-
-
 }
+
+
 

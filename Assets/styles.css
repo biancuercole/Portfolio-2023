@@ -13,11 +13,7 @@ body {
     justify-content: space-between;
     padding: 10px;
     height: 50px;
-    transition: height 0.3s ease-in-out;
-}
-
-.navbar-expanded {
-    height: 80px;
+    box-shadow: 0px 0px 10px rgb(18, 93, 54);
 }
 
 .marca {
@@ -53,5 +49,156 @@ body {
     justify-content: center;
 }
 
+header {
+    background-color: rgb(171, 215, 184);
+    white-space: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(50, 112, 67);
+}
 
+.portada h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(18, 93, 54);
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 0;
+    font-weight: bolder;
+}
 
+.avatar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: block;
+    width: 250px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(50, 112, 67);
+    border: none;
+}
+
+.contenedor h2 {
+    justify-content: center;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 48, 27);
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    max-width: 500px;
+    justify-content: center;
+    line-height: 175%;
+}
+
+.cuadros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.cuadro1 {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    height: auto;   
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    flex-basis: calc(50% - 20%);
+}
+
+.cuadro1 img {
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(198, 148, 148);
+}
+
+.cuadro2 {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    flex-basis: calc(50% - 20%);
+}
+
+.cuadro2 img {
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(51, 49, 117);
+}
+
+.cuadro3 {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    flex-basis: calc(50% - 20%);
+}
+
+.cuadro3 img {
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(87, 119, 96);
+}
+
+.cuadro4 {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    flex-basis: calc(50% - 20%);
+}
+
+.cuadro4 img {
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(135, 86, 96);
+}

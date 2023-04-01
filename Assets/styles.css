@@ -202,3 +202,66 @@ p {
     border-radius: 10%;
     box-shadow: 0px 0px 10px rgb(135, 86, 96);
 }
+
+button {
+    border-color: none;
+    background-color: none;
+    background: none;
+    border: none;
+}
+
+#popup1 {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: aliceblue; 
+    border: 1px solid black; 
+    padding: 20px; 
+    width: 300px; 
+    height: 200px;
+    z-index: 999;
+}
+
+#popup2 {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: aliceblue; 
+    border: 1px solid black; 
+    padding: 20px; 
+    width: 300px; 
+    height: 200px;
+    z-index: 999;
+}
+
+#popup3 {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: aliceblue; 
+    border: 1px solid black; 
+    padding: 20px; 
+    width: 300px; 
+    height: 200px;
+    z-index: 999;
+}
+
+#popup4 {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: aliceblue; 
+    border: 1px solid black; 
+    padding: 20px; 
+    width: 300px; 
+    height: 200px;
+    z-index: 999;
+}

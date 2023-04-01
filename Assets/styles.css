@@ -111,7 +111,7 @@ p {
     margin: 20px;
 }
 
-.cuadro1 {
+.cuadro {
     position: relative;
     width: 100%;
     max-width: 250px;
@@ -124,83 +124,14 @@ p {
     flex-basis: calc(50% - 20%);
 }
 
-.cuadro1 img {
+.cuadro img {
     display: block;
     width: 100%;
     align-items: center;
     justify-content: center;
     object-fit: cover;
     border-radius: 10%;
-    box-shadow: 0px 0px 10px rgb(198, 148, 148);
-}
-
-.cuadro2 {
-    position: relative;
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin: 0 auto;
-    padding: 20px;
-    flex-basis: calc(50% - 20%);
-}
-
-.cuadro2 img {
-    display: block;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-    border-radius: 10%;
-    box-shadow: 0px 0px 10px rgb(51, 49, 117);
-}
-
-.cuadro3 {
-    position: relative;
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin: 0 auto;
-    padding: 10px;
-    flex-basis: calc(50% - 20%);
-}
-
-.cuadro3 img {
-    display: block;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-    border-radius: 10%;
-    box-shadow: 0px 0px 10px rgb(87, 119, 96);
-}
-
-.cuadro4 {
-    position: relative;
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin: 0 auto;
-    padding: 10px;
-    flex-basis: calc(50% - 20%);
-}
-
-.cuadro4 img {
-    display: block;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-    border-radius: 10%;
-    box-shadow: 0px 0px 10px rgb(135, 86, 96);
+    box-shadow: 0px 0px 10px rgb(182, 149, 149);
 }
 
 button {
@@ -210,7 +141,11 @@ button {
     border: none;
 }
 
-#popup1 {
+#boton {
+    border-color: blueviolet;
+}
+
+#popup {
     display: none; 
     position: fixed; 
     top: 50%; 
@@ -219,49 +154,12 @@ button {
     background-color: aliceblue; 
     border: 1px solid black; 
     padding: 20px; 
-    width: 300px; 
-    height: 200px;
+    width: 500px; 
+    height: 500px;
     z-index: 999;
 }
 
-#popup2 {
-    display: none; 
-    position: fixed; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: aliceblue; 
-    border: 1px solid black; 
-    padding: 20px; 
-    width: 300px; 
-    height: 200px;
-    z-index: 999;
-}
-
-#popup3 {
-    display: none; 
-    position: fixed; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: aliceblue; 
-    border: 1px solid black; 
-    padding: 20px; 
-    width: 300px; 
-    height: 200px;
-    z-index: 999;
-}
-
-#popup4 {
-    display: none; 
-    position: fixed; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: aliceblue; 
-    border: 1px solid black; 
-    padding: 20px; 
-    width: 300px; 
-    height: 200px;
-    z-index: 999;
+#close {
+    position: fixed;
+    color: blueviolet;
 }
